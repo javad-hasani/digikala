@@ -1,0 +1,48 @@
+.not-found-page-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+  direction: rtl;
+}
+.not-found-page-main h4 {
+  color: #23254e;
+  font-family: Vaziri-Light;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-size: 1.1rem;
+}
+.not-found-page-main .home-page-link {
+  color: #19bfd3;
+  font-size: 0.8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  width: max-content;
+}
+.not-found-page-main .img-container {
+  width: 300px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+@media screen and (min-width: 1024px) {
+  .not-found-page-main h4 {
+    font-size: 1.2rem;
+ 
+ }
+  .not-found-page-main .home-page-link {
+    font-size: 0.9rem;
+ }
+  .not-found-page-main .img-container {
+    width: 571px;
+ }
+}
+
+@media screen and (max-width: 768px) {
+  
+  .lottie-notfound{
+    display: none;
+  }
+ }

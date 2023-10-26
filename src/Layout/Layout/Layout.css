@@ -1,0 +1,21 @@
+.max-width {
+  max-width: 1336px;
+  margin: 0 auto;
+}
+a {
+  text-decoration: none;
+  color: #23254e;
+}
+img {
+  display: inline-block;
+  width: 100%;
+  height: auto;
+}
+.margin {
+  margin: 10px 20px;
+}
+@media screen and (min-width: 1024px) {
+  .margin-1024 {
+    margin: 10px 20px;
+ }
+}

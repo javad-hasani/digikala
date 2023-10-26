@@ -1,0 +1,100 @@
+.suggestion-h3 {
+  text-align: center;
+  margin: 30px 0;
+  font-family: Vaziri-Light;
+}
+.swiper-suggestion {
+  direction: rtl;
+  border: 1px solid #e0e0e6;
+  border-radius: 15px;
+  min-height: 311px;
+  max-height: 311px;
+  position: relative;
+}
+.swiper-suggestion .swiper-button-next, .swiper-suggestion .swiper-button-prev {
+  display: none;
+}
+.swiper-suggestion .border-top {
+  border-top: 1px solid #f1f2f4;
+}
+.swiper-suggestion .swiper-slider-suggestion {
+  display: flex;
+  flex-direction: column;
+}
+.swiper-suggestion .swiper-slider-suggestion:not(:last-child) {
+  border-left: 1px solid #f1f2f4;
+}
+.swiper-suggestion .swiper-slider-suggestion .img-container {
+  background-color: #f1f2f4;
+  padding: 12px;
+  border-radius: 99999px;
+  overflow: hidden;
+}
+.swiper-suggestion .swiper-slider-suggestion .img-container div {
+  width: 60px;
+  height: 60px;
+  position: relative;
+}
+.swiper-suggestion .swiper-slider-suggestion .img-container div:before {
+  content: "";
+  background-color: rgba(0, 0, 0, 0.05);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.swiper-suggestion .swiper-slider-suggestion .seggestion-items {
+  height: 50%;
+}
+.swiper-suggestion .swiper-slider-suggestion .seggestion-items a {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  height: 100%;
+  gap: 10px;
+}
+.swiper-suggestion .swiper-slider-suggestion .seggestion-items a span {
+  color: black;
+  font-size: 0.7rem;
+  font-family: Vaziri-Light;
+}
+@media screen and (min-width: 1024px) {
+  .suggestion-h3 {
+    font-size: 1.4rem;
+    margin: 40px 0;
+ }
+  .swiper-suggestion .swiper-button-next, .swiper-suggestion .swiper-button-prev {
+    display: flex;
+    transition: all 0.3s;
+    border: 1px solid #c0c2c5;
+    height: 40px;
+    width: 40px;
+    color: #424750;
+    background-color: #fff;
+    border-radius: 50%;
+ }
+  .swiper-suggestion .swiper-button-next.swiper-button-disabled, .swiper-suggestion .swiper-button-prev.swiper-button-disabled {
+    opacity: 0;
+ }
+  .swiper-suggestion .swiper-button-next::after, .swiper-suggestion .swiper-button-prev::after {
+    font-size: 0.7rem;
+    font-weight: bolder;
+ }
+  .swiper-suggestion .swiper-button-prev {
+    margin: 0 !important;
+    right: 10px !important;
+    top: 45%;
+ }
+  .swiper-suggestion .swiper-button-next {
+    margin: 0 !important;
+    left: 10px !important;
+    top: 45%;
+ }
+  .swiper-suggestion .seggestion-items a span {
+    font-size: 0.9rem !important;
+ }
+}

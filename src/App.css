@@ -1,0 +1,22 @@
+@font-face {
+  font-family: Vaziri-Regular;
+  src: url(../assets/Font/Vazir-Regular.woff);
+}
+@font-face {
+  font-family: Vaziri-Medium;
+  src: url(../assets/Font/Vazir-Medium.woff);
+}
+@font-face {
+  font-family: Vaziri-Light;
+  src: url(../assets/Font/Vazir-Light.woff);
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Vaziri-Medium;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+

@@ -1,0 +1,258 @@
+.more-services-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-top: 35px !important;
+  row-gap: 30px;
+}
+.more-services-container img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.more-services-container a {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  text-align: center;
+}
+.more-services-container a div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+.more-services-container a div span {
+  color: #424f70;
+  font-size: 10px;
+}
+.more-services-container a .img-container {
+  width: 50px;
+  height: 50px;
+}
+.more-services-container a .more-icon {
+  background-color: #f0f0f1 !important;
+  border-radius: 100% !important;
+  width: 50px;
+  height: 50px;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  font-size: 1.8rem !important;
+  color: #a1a3a8 !important;
+}
+.more-services-container .backdrop-more-services-section {
+  transform: translateY(110%);
+  position: fixed;
+  inset: 0;
+  background-color: #fff;
+  overflow: auto;
+  z-index: 10;
+}
+.more-services-container .backdrop-more-services-section.open {
+  transition: all 0.2s ease-in-out;
+  transform: translateY(0);
+  top: 0;
+}
+.more-services-container .backdrop-more-services-section .more-services-section-box {
+  background-color: white;
+  overflow-y: auto;
+  padding: 0 10px;
+  background-color: #fff;
+  overflow: auto;
+  z-index: 10;
+}
+.more-services-container .backdrop-more-services-section .more-section-services-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 15px;
+  position: sticky;
+  top: 0;
+  background-color: white;
+  border-bottom: 1px solid #e6e6e8;
+}
+.more-services-container .backdrop-more-services-section .more-section-services-header h3 {
+  padding: 5px;
+  font-family: Vaziri-Light;
+  font-size: 1rem;
+}
+.more-services-container .backdrop-more-services-section .more-section-services-header button {
+  background-color: transparent;
+  border: none;
+  font-size: 1.4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  cursor: pointer;
+}
+.more-services-container .backdrop-more-services-section .more-section-services-main .more-section-services-main-header {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 35px 0;
+  row-gap: 30px;
+}
+.more-services-container .backdrop-more-services-section .more-section-services-main .more-section-services-group h3 {
+  text-align: right;
+  padding-right: 20px;
+  font-family: Vaziri-Light;
+  font-size: 0.8rem;
+  color: #81858a;
+  margin-bottom: 5px;
+}
+.more-services-container .backdrop-more-services-section .more-section-services-main .services-items-container {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  padding: 10px;
+  gap: 10px;
+}
+.more-services-container .backdrop-more-services-section .more-section-services-main .services-items-container .services-items {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  cursor: pointer;
+}
+.more-services-container .backdrop-more-services-section .more-section-services-main .services-items-container .services-items:not(:last-child) {
+  border-bottom: 1px solid #e6e6e8;
+}
+.more-services-container .backdrop-more-services-section .more-section-services-main .services-items-container .services-items .img-container {
+  width: 50px;
+  height: 50px;
+}
+.more-services-container .backdrop-more-services-section .more-section-services-main .services-items-container .services-items .icons {
+  font-size: 1.1rem;
+  color: #a1a3a8;
+}
+.more-services-container .backdrop-more-services-section .more-section-services-main .services-items-container .services-items .services-items-description {
+  padding: 0 20px;
+  flex: 1;
+}
+.more-services-container .backdrop-more-services-section .more-section-services-main .services-items-container .services-items .services-items-description h3 {
+  padding: 0;
+  color: #434754;
+  font-size: 0.8rem;
+}
+.more-services-container .backdrop-more-services-section .more-section-services-main .services-items-container .services-items .services-items-description p {
+  font-size: 0.7rem;
+  color: #a1a3a8;
+  overflow-wrap: break-word;
+  text-align: right;
+}
+@media screen and (min-width: 1024px) {
+  .more-services-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 35px !important;
+    row-gap: 30px;
+ }
+  .more-services-container a div span {
+    font-size: 12px;
+ }
+  .more-services-container .backdrop-more-services-section {
+    transform: unset;
+    background-color: rgba(0, 0, 0, 0.3);
+    position: fixed;
+    inset: 0;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 5;
+    visibility: hidden;
+    opacity: 0;
+ }
+  .more-services-container .backdrop-more-services-section.open {
+    visibility: visible;
+    opacity: 100;
+    transition: all 0.3s ease-in-out;
+ }
+  .more-services-container .backdrop-more-services-section .more-services-section-box {
+    max-width: 80vw;
+    min-width: 768px;
+    min-height: 80vh;
+    max-height: 80vh;
+    background-color: white;
+    border-radius: 15px;
+    overflow-y: auto;
+    padding: 0 10px 10px 10px;
+ }
+  .more-services-container .backdrop-more-services-section .more-section-services-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    border-bottom: 1px solid #e6e6e8;
+ }
+  .more-services-container .backdrop-more-services-section .more-section-services-header h3 {
+    padding: 5px;
+    font-family: Vaziri-Light;
+    font-size: 1.1rem;
+ }
+  .more-services-container .backdrop-more-services-section .more-section-services-header button {
+    background-color: transparent;
+    border: none;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    cursor: pointer;
+ }
+  .more-services-container .backdrop-more-services-section .more-section-services-main .more-section-services-main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 35px 70px;
+ }
+  .more-services-container .backdrop-more-services-section .more-section-services-main .more-section-services-group h3 {
+    text-align: right;
+    padding-right: 20px;
+    font-family: Vaziri-Light;
+    font-size: 0.9rem;
+    color: #81858a;
+    margin-bottom: 5px;
+ }
+  .more-services-container .backdrop-more-services-section .more-section-services-main .services-items-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 10px;
+    gap: 10px;
+ }
+  .more-services-container .backdrop-more-services-section .more-section-services-main .services-items-container .services-items {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    border-radius: 15px;
+    border: 1px solid #e6e6e8;
+    cursor: pointer;
+ }
+  .more-services-container .backdrop-more-services-section .more-section-services-main .services-items-container .services-items .img-container {
+    width: 50px;
+    height: 50px;
+ }
+  .more-services-container .backdrop-more-services-section .more-section-services-main .services-items-container .services-items .icons {
+    font-size: 1.5rem;
+    color: #a1a3a8;
+ }
+  .more-services-container .backdrop-more-services-section .more-section-services-main .services-items-container .services-items .services-items-description {
+    padding: 0 20px;
+    flex: 1;
+ }
+  .more-services-container .backdrop-more-services-section .more-section-services-main .services-items-container .services-items .services-items-description h3 {
+    padding: 0;
+    color: #434754;
+    font-size: 1rem;
+ }
+  .more-services-container .backdrop-more-services-section .more-section-services-main .services-items-container .services-items .services-items-description p {
+    font-size: 0.8rem;
+    color: #a1a3a8;
+    overflow-wrap: break-word;
+    text-align: right;
+ }
+}

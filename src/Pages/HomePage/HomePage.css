@@ -1,0 +1,503 @@
+.main-container-home {
+  padding: 0;
+}
+.main-container-home .border-radius {
+  border-radius: 15px;
+  overflow: hidden;
+  display: flex;
+  margin-top: 50px;
+}
+.main-container-home .img-section-1, .main-container-home .img-section-2 {
+  margin-top: 25px;
+  display: flex;
+  gap: 15px;
+}
+.main-container-home .img-section-1 div, .main-container-home .img-section-2 div {
+  border-radius: 15px;
+  overflow: hidden;
+  display: flex;
+}
+.main-container-home .img-section-2 {
+  flex-direction: column;
+}
+.main-container-home .img-section-1 div:first-child {
+  display: none;
+}
+.main-container-home .amazing-supermarket {
+  background-image: url(https://www.digikala.com/statics/img/svg/typography/freshPattern.svg);
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+  padding: 15px 20px;
+  border-radius: 15px;
+  overflow: hidden;
+}
+.main-container-home .amazing-supermarket .hidden {
+  display: none;
+}
+.main-container-home .amazing-supermarket::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: #cccdcf;
+  opacity: 0.3;
+  z-index: -1;
+}
+.main-container-home .amazing-supermarket header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 10px;
+}
+.main-container-home .amazing-supermarket header div:nth-child(2) {
+  width: 190px;
+}
+.main-container-home .amazing-supermarket header div:last-child {
+  width: 40px;
+}
+.main-container-home .amazing-supermarket main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.main-container-home .amazing-supermarket main .icon {
+  background-color: white;
+  color: #39ae22;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px;
+  border-radius: 50%;
+  font-size: 1.2rem;
+}
+.main-container-home .amazing-supermarket main div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.main-container-home .amazing-supermarket main div a {
+  width: 65px;
+  border-radius: 50%;
+  padding: 5px;
+  background-color: white;
+  position: relative;
+}
+.main-container-home .amazing-supermarket main div a div {
+  border-radius: 50%;
+  overflow: hidden;
+  padding: 2px;
+}
+.main-container-home .amazing-supermarket main div a span {
+  position: absolute;
+  background-color: #f04056;
+  border-radius: 15px;
+  padding: 0.5px 8px;
+  color: white;
+  font-size: 0.7rem;
+  display: inline-block;
+  bottom: 0;
+  right: 0;
+}
+.main-container-home .suggestion-container {
+  margin-top: 15px;
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 15px;
+}
+.main-container-home .suggestion-container a {
+  border-radius: 15px;
+  overflow: hidden;
+  display: flex;
+}
+.main-container-home .category-container {
+  display: flex;
+  flex-direction: column;
+}
+.main-container-home .category-container h3 {
+  text-align: center;
+  margin: 30px 0;
+  font-family: Vaziri-Light;
+}
+.main-container-home .category-container main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  align-items: flex;
+  gap: 20px;
+  row-gap: 24px;
+}
+.main-container-home .category-container main a {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 28%;
+  text-decoration: none;
+}
+.main-container-home .category-container main a .img-container {
+  width: 90px;
+  height: 90px;
+}
+.main-container-home .category-container main a p {
+  color: black;
+  font-size: 0.7rem;
+  text-align: center;
+  margin-top: 8px;
+  line-height: 2.17;
+}
+.main-container-home .digi-plus-container {
+  background-color: #941b80;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+.main-container-home .digi-plus-container .digi-plus-intro {
+  background-image: url(https://www.digikala.com/statics/img/png/digiplus/plus-widget.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 0 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  padding: 10px;
+  min-height: 355px;
+}
+.main-container-home .digi-plus-container .digi-plus-intro div {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  gap: 10px;
+  padding-top: 5px;
+}
+.main-container-home .digi-plus-container .digi-plus-intro div p {
+  color: white;
+  font-size: 0.8rem;
+  font-family: Vaziri-Light;
+}
+.main-container-home .digi-plus-container .digi-plus-intro div a {
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 5px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.main-container-home .digi-plus-container .digi-plus-intro div a .icon {
+  font-size: 1.3rem;
+}
+.main-container-home .digi-plus-container .digi-plus-box {
+  overflow: hidden;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 5px;
+}
+.main-container-home .digi-plus-container .digi-plus-box div {
+  padding: 6px 8px;
+  background-color: white;
+}
+.main-container-home .digi-plus-container .digi-plus-box div .digi-plus-items-header {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+}
+.main-container-home .digi-plus-container .digi-plus-box div .digi-plus-items-header a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.8rem;
+  color: #941b80;
+}
+.main-container-home .digi-plus-container .digi-plus-box div .digi-plus-items-header a .icon {
+  font-size: 1rem;
+}
+.main-container-home .digi-plus-container .digi-plus-box div main {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+  height: 100%;
+}
+.main-container-home .digi-plus-container .digi-plus-box div .product-digi-plus {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 15px;
+}
+.main-container-home .digi-plus-container .digi-plus-box div .product-digi-plus.exception {
+  display: none;
+}
+.main-container-home .digi-plus-container .digi-plus-box div .product-digi-plus a {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-container-home .digi-plus-container .digi-plus-box div .product-digi-plus a .img-container {
+  max-width: 116px;
+  max-height: 116px;
+  padding: 0;
+}
+.main-container-home .digi-plus-container .digi-plus-box div .product-digi-plus a .img-container img {
+  aspect-ratio: 1;
+  object-fit: contain;
+  height: 100%;
+}
+.main-container-home .digiclub-container {
+  background: linear-gradient(76.02deg, #35a6c8 33.32%, #007295 71.55%), radial-gradient(21.29% 87.33% at 50% 50.67%, #7cf2f6 0, #35a6c8 100%);
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  padding: 15px;
+  padding-top: 0;
+}
+.main-container-home .digiclub-container .digiclub-logo-container {
+  display: flex;
+  justify-content: flex-end;
+  padding: 15px 0;
+}
+.main-container-home .digiclub-container .digiclub-logo-container .digiclub-logo {
+  width: 119px;
+  height: 33px;
+}
+.main-container-home .digiclub-container .img-container {
+  display: flex;
+}
+.main-container-home .digiclub-container .digiclub-items-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-container-home .digiclub-container .digiclub-items-container > div {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.main-container-home .digiclub-container .digiclub-items-container > div a {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: white;
+  max-width: 130px;
+  border: 1px solid white;
+}
+.main-container-home .digiclub-container .digiclub-items-container > div a span {
+  font-size: 0.8rem;
+  text-align: center;
+  display: block;
+  padding: 15px 0;
+}
+.main-container-home .reading-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+.main-container-home .reading-container .reading-header {
+  direction: rtl;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.main-container-home .reading-container .reading-header h4 {
+  font-family: Vaziri-Light;
+  padding: 15px 0;
+}
+.main-container-home .reading-container .reading-header a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #19bfd3;
+  font-size: 0.8rem;
+}
+.main-container-home .reading-container .reading-header a .icon {
+  font-size: 1rem;
+}
+.main-container-home .reading-container main {
+  direction: rtl;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.main-container-home .reading-container main .reading-items {
+  border: 1px solid #e0e0e6;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.main-container-home .reading-container main .reading-items .description-box {
+  padding: 15px;
+  font-size: 0.7rem;
+}
+.main-container-home .reading-container main .reading-items .description-box p {
+  font-family: Vaziri-Light;
+}
+@media screen and (min-width: 768px) {
+  .exception {
+    display: flex !important;
+ }
+}
+@media screen and (min-width: 1024px) {
+  .main-container-home .border-radius {
+    border-radius: 15px;
+    overflow: hidden;
+    display: flex;
+    margin-top: 30px;
+ }
+  .main-container-home .img-section-1 div:first-child {
+    display: flex;
+ }
+  .main-container-home .img-section-2 {
+    flex-direction: row;
+ }
+  .main-container-home .amazing-supermarket {
+    flex-direction: row-reverse;
+    padding: 16px 40px;
+    padding-bottom: 12px;
+ }
+  .main-container-home .amazing-supermarket .hidden:not(:nth-child(1)) {
+    display: flex;
+ }
+  .main-container-home .amazing-supermarket header {
+    gap: 20px;
+ }
+  .main-container-home .amazing-supermarket header div:nth-child(2) {
+    width: 250px;
+    display: flex;
+ }
+  .main-container-home .amazing-supermarket header div:last-child {
+    width: 60px;
+    display: flex;
+ }
+  .main-container-home .amazing-supermarket main {
+    flex: 1;
+    justify-content: flex-start;
+ }
+  .main-container-home .amazing-supermarket main .icon {
+    border-radius: 9999px;
+    font-size: 0.8rem;
+    gap: 10px;
+    padding: 14px 20px;
+ }
+  .main-container-home .amazing-supermarket main .icon span {
+    white-space: nowrap;
+ }
+  .main-container-home .amazing-supermarket main .icon .HiArrowLeft {
+    font-size: 1.1rem;
+ }
+  .main-container-home .amazing-supermarket main div#container-amazing-product {
+    flex-wrap: wrap;
+    overflow: hidden;
+    max-height: 70px;
+    justify-content: flex-start;
+    padding: 0 7px;
+    margin-right: 10px;
+ }
+  .main-container-home .amazing-supermarket main div a {
+    width: 70px;
+ }
+  .main-container-home .suggestion-container {
+    display: flex;
+ }
+  .main-container-home .category-container h3 {
+    margin: 40px 0;
+    font-size: 1.4rem;
+ }
+  .main-container-home .category-container main a {
+    width: 15%;
+ }
+  .main-container-home .category-container main a .img-container {
+    width: 170px;
+    height: 170px;
+ }
+  .main-container-home .category-container main a p {
+    font-size: 0.8rem;
+    white-space: nowrap;
+ }
+  .main-container-home .digi-plus-container {
+    flex-direction: row-reverse;
+    padding: 15px;
+    border-radius: 15px;
+    margin-top: 30px;
+ }
+  .main-container-home .digi-plus-container .digi-plus-intro {
+    background-size: 372px 279px;
+    padding: 15px 25px;
+    margin-left: 12px;
+    flex-grow: 1;
+ }
+  .main-container-home .digi-plus-container .digi-plus-box {
+    flex-direction: row;
+ }
+  .main-container-home .digi-plus-container .digi-plus-box div main {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    padding-bottom: 30px;
+ }
+  .main-container-home .digiclub-container {
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    padding: 12px 15px;
+    border-radius: 15px;
+ }
+  .main-container-home .digiclub-container .img-container {
+    height: 60px;
+ }
+  .main-container-home .digiclub-container .img-container img {
+    object-fit: cover;
+    width: 168px;
+ }
+  .main-container-home .digiclub-container .digiclub-items-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+ }
+  .main-container-home .digiclub-container .digiclub-items-container > div {
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    border-radius: 8px;
+    overflow: hidden;
+ }
+  .main-container-home .digiclub-container .digiclub-items-container > div a {
+    padding: 3px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    min-width: 260px;
+    padding-right: 15px;
+ }
+  .main-container-home .reading-container .reading-header {
+    padding: 5px 15px;
+ }
+  .main-container-home .reading-container main {
+    flex-direction: row;
+ }
+  .main-container-home .reading-container main .reading-items .description-box {
+    padding: 15px;
+    font-size: 0.8rem;
+ }
+}
+@media screen and (min-width: 1280px) {
+  header .hidden {
+    display: flex !important;
+    background-color: #39ae22;
+    padding: 2px 10px;
+    border-radius: 15px;
+ }
+  .digi-plus-container .digi-plus-box div main {
+    grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+ }
+}

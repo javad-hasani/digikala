@@ -1,0 +1,462 @@
+.main-footer {
+  max-width: 1676px;
+  margin: 0 auto;
+  margin-top: 48px !important;
+  border-top: 1px solid #f1f2f4;
+}
+.main-footer .footer-container {
+  padding: 0 20px;
+}
+.main-footer .footer-container .section-go-up-and-logo {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 35px;
+}
+.main-footer .footer-container .section-go-up-and-logo button {
+  direction: rtl;
+  background-color: transparent;
+  border: 1px solid #e0e0e6;
+  padding: 8px 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #9e9fb1;
+  border-radius: 8px;
+  cursor: pointer;
+  gap: 10px;
+}
+.main-footer .footer-container .section-go-up-and-logo button .icon {
+  font-size: 1.3rem;
+}
+.main-footer .footer-container .section-go-up-and-logo .logo {
+  width: 110px;
+  display: flex;
+}
+.main-footer .footer-container .details-support {
+  direction: rtl;
+  margin-top: 20px;
+}
+.main-footer .footer-container .details-support .line {
+  display: none;
+}
+.main-footer .footer-container .details-support p {
+  font-family: Vaziri-Light;
+  font-size: 0.78rem;
+  line-height: 25px;
+  color: #3f4064;
+}
+.main-footer .footer-container .digikala-option {
+  display: none;
+}
+.main-footer .footer-container .register-and-questions {
+  display: flex;
+  flex-wrap: wrap;
+  direction: rtl;
+  margin-top: 20px;
+}
+.main-footer .footer-container .register-and-questions .hidden {
+  display: none !important;
+}
+.main-footer .footer-container .register-and-questions .register-box {
+  direction: rtl;
+  width: 100%;
+}
+.main-footer .footer-container .register-and-questions .register-box div:first-child {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0;
+}
+.main-footer .footer-container .register-and-questions .register-box div:first-child h3 {
+  font-family: Vaziri-Light;
+  color: #3f4064;
+  font-size: 1rem;
+}
+.main-footer .footer-container .register-and-questions .register-box div:first-child .social-networks-container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.main-footer .footer-container .register-and-questions .register-box div:first-child .social-networks-container span {
+  font-size: 1.8rem;
+  color: #9e9fb1;
+  cursor: pointer;
+}
+.main-footer .footer-container .register-and-questions .register-box form {
+  display: flex;
+  gap: 5px;
+}
+.main-footer .footer-container .register-and-questions .register-box form button {
+  background-color: #e0e0e6;
+  border: none;
+  color: white;
+  padding: 12px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.main-footer .footer-container .register-and-questions .register-box form input {
+  border: none;
+  outline: none;
+  background-color: #f1f2f4;
+  padding: 15px;
+  border-radius: 8px;
+  caret-color: #ef4056;
+  color: #3f4064;
+  flex-grow: 1;
+}
+.main-footer .footer-container .register-and-questions .register-box form input::placeholder {
+  color: #9e9eb7;
+}
+.main-footer .footer-container .register-and-questions .question-box {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  line-height: 35px;
+}
+.main-footer .footer-container .register-and-questions .question-box h4 {
+  font-family: Vaziri-Light;
+  color: #3f4064;
+  font-size: 0.9rem;
+}
+.main-footer .footer-container .register-and-questions .question-box a {
+  font-family: Vaziri-Light;
+  color: #767790;
+  font-size: 0.81rem;
+}
+.main-footer .footer-container .install-app-container {
+  background-color: #3c4b6d;
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+  margin-top: 20px;
+  padding: 15px;
+}
+.main-footer .footer-container .install-app-container .hidden {
+  display: none !important;
+}
+.main-footer .footer-container .install-app-container .title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.main-footer .footer-container .install-app-container .title div {
+  color: white;
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+.main-footer .footer-container .install-app-container .title .img-container {
+  width: 24px;
+  height: 24px;
+}
+.main-footer .footer-container .install-app-container .installation-methods-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+.main-footer .footer-container .install-app-container .installation-methods-box .img-container {
+  height: 44px;
+  overflow: hidden;
+  border-radius: 5px;
+  display: flex;
+}
+.main-footer .footer-container .install-app-container .more-information-box {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-footer .footer-container .install-app-container .more-information-box a {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  direction: rtl;
+  color: white;
+  font-size: 0.8rem;
+}
+.main-footer .footer-container .about-digikala {
+  margin-top: 30px;
+  border-top: 1px solid #f1f2f4;
+  border-bottom: 1px solid #f1f2f4;
+  padding: 30px 0;
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 20px;
+}
+.main-footer .footer-container .about-digikala div:first-child {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.main-footer .footer-container .about-digikala div:first-child a {
+  padding: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #e0e0e6;
+  border-radius: 15px;
+}
+.main-footer .footer-container .about-digikala div:first-child a .img-container {
+  width: 75px;
+  height: 75px;
+}
+.main-footer .footer-container .about-digikala .description {
+  direction: rtl;
+}
+.main-footer .footer-container .about-digikala .description h5 {
+  font-family: Vaziri-Light;
+  margin-bottom: 15px;
+  font-size: 0.85rem;
+}
+.main-footer .footer-container .about-digikala .description p {
+  font-size: 0.75rem;
+  color: #767790;
+  margin-bottom: 10px;
+  line-height: 2.2;
+}
+.main-footer .footer-container .about-digikala .description a {
+  font-size: 0.85rem;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  color: #767790;
+}
+.main-footer .footer-container .about-digikala .description a .icon {
+  color: #19bfd3;
+  font-size: 1.2rem;
+}
+.main-footer .footer-container .digikala-rights {
+  direction: rtl;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 0;
+  color: #767790;
+  font-size: 0.6rem;
+  font-family: Vaziri-Light;
+}
+.main-footer .companies {
+  background-color: #e0e0e6;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1px;
+}
+.main-footer .companies a {
+  background-color: #f1f2f4;
+  height: 80px;
+  width: 33%;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+.main-footer .companies .img-container {
+  height: 20px;
+}
+@media screen and (min-width: 1024px) {
+  .main-footer .footer-container .details-support .line {
+    display: inline-block;
+    margin: 0 20px;
+    color: #9e9fb1;
+ }
+  .main-footer .footer-container .details-support p {
+    display: inline;
+ }
+  .main-footer .footer-container .digikala-option {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0;
+ }
+  .main-footer .footer-container .digikala-option a {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+  .main-footer .footer-container .digikala-option a p {
+    color: #3f4064;
+    font-size: 0.75rem;
+    font-family: Vaziri-Light;
+    direction: rtl;
+ }
+  .main-footer .footer-container .digikala-option a .img-container {
+    width: 56px;
+    height: 56px;
+ }
+  .main-footer .footer-container .register-and-questions {
+    flex-wrap: nowrap;
+    direction: rtl;
+    margin-top: 20px;
+ }
+  .main-footer .footer-container .register-and-questions .hidden {
+    display: flex !important;
+ }
+  .main-footer .footer-container .register-and-questions .register-box {
+    width: 86%;
+ }
+  .main-footer .footer-container .register-and-questions .register-box div:first-child {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 0;
+    gap: 15px;
+ }
+  .main-footer .footer-container .register-and-questions .register-box div:first-child h3 {
+    font-size: 1rem;
+    text-align: right;
+    width: 100%;
+ }
+  .main-footer .footer-container .register-and-questions .register-box div:first-child .social-networks-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 30px;
+    width: 100%;
+ }
+  .main-footer .footer-container .register-and-questions .register-box div:first-child .social-networks-container span {
+    font-size: 2.2rem;
+    color: #9e9fb1;
+    cursor: pointer;
+    padding: 5px;
+ }
+  .main-footer .footer-container .register-and-questions .register-box div:last-child h3 {
+    color: #3f4064;
+    font-family: Vaziri-Light;
+    font-size: 1rem;
+    margin-bottom: 15px;
+    margin-top: 10px;
+ }
+  .main-footer .footer-container .register-and-questions .register-box form {
+    display: flex;
+    gap: 5px;
+ }
+  .main-footer .footer-container .register-and-questions .register-box form button {
+    background-color: #e0e0e6;
+    border: none;
+    color: white;
+    padding: 12px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+ }
+  .main-footer .footer-container .register-and-questions .register-box form input {
+    padding: 13px;
+    font-size: 1rem;
+ }
+  .main-footer .footer-container .register-and-questions .question-box {
+    width: 100%;
+ }
+  .main-footer .footer-container .register-and-questions .question-box h4 {
+    font-size: 1rem;
+ }
+  .main-footer .footer-container .register-and-questions .question-box a {
+    font-size: 0.95rem;
+ }
+  .main-footer .footer-container .install-app-container {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+ }
+  .main-footer .footer-container .install-app-container .title div {
+    color: white;
+    font-size: 1.5rem;
+    margin-bottom: 0;
+ }
+  .main-footer .footer-container .install-app-container .title .img-container {
+    width: 44px;
+    height: 44px;
+ }
+  .main-footer .footer-container .install-app-container .hidden {
+    display: flex !important;
+    background-color: white;
+ }
+  .main-footer .footer-container .install-app-container .more-information-box {
+    display: none !important;
+ }
+  .main-footer .footer-container .about-digikala {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+ }
+  .main-footer .footer-container .about-digikala div:first-child {
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+    width: 50%;
+ }
+  .main-footer .footer-container .about-digikala div:first-child a {
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #e0e0e6;
+    border-radius: 15px;
+ }
+  .main-footer .footer-container .about-digikala div:first-child a .img-container {
+    width: 75px;
+    height: 75px;
+ }
+  .main-footer .footer-container .about-digikala .description {
+    direction: rtl;
+    width: 50%;
+ }
+  .main-footer .footer-container .about-digikala .description h5 {
+    font-family: Vaziri-Light;
+    margin-bottom: 15px;
+    font-size: 0.9rem;
+ }
+  .main-footer .footer-container .about-digikala .description p {
+    font-size: 0.8rem;
+    color: #767790;
+    margin-bottom: 10px;
+    line-height: 2.2;
+ }
+  .main-footer .footer-container .about-digikala .description a {
+    font-size: 0.9rem;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    color: #767790;
+ }
+  .main-footer .footer-container .about-digikala .description a .icon {
+    color: #19bfd3;
+    font-size: 1.2rem;
+ }
+  .main-footer .footer-container .digikala-rights {
+    font-size: 0.75rem;
+ }
+  .main-footer .companies {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: flex-end;
+    gap: 0.1px;
+ }
+  .main-footer .companies a {
+    height: 80px;
+    width: 12%;
+    padding: 0 20px;
+    border: 0.5px solid #e0e0e6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-grow: 1;
+ }
+  .main-footer .companies a:nth-child(n + 8) {
+    width: 11%;
+ }
+  .main-footer .companies .img-container {
+    height: 20px;
+ }
+  .main-footer .companies .img-container img {
+    height: 100%;
+ }
+}

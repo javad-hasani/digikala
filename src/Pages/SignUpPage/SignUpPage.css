@@ -1,0 +1,119 @@
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container .signup-main {
+  width: 100%;
+}
+.container .signup-main .logo {
+  width: 150px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+.container .signup-main .logo img {
+  width: 100%;
+}
+.container .signup-main header {
+  direction: rtl;
+  width: 100%;
+  padding: 0 20px;
+}
+.container .signup-main header h3 {
+  font-weight: 100;
+  margin-bottom: 18px;
+}
+.container .signup-main header p {
+  font-size: 0.72rem;
+  line-height: 25px;
+  color: #0e0e0f;
+  font-family: Vaziri-Light;
+  font-weight: 500;
+}
+.container .signup-main form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 2.1rem;
+  padding: 0 20px;
+  margin-top: 15px;
+}
+.container .signup-main form div {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.container .signup-main form div input {
+  border: none;
+  outline: none;
+  color: #000000;
+  padding: 12px 18px;
+  direction: rtl;
+  border-radius: 8px;
+  border-bottom: 2px solid #e50606;
+  background-color: #131360;
+  caret-color: #042c31;
+}
+.container .signup-main form div input.err {
+  border-color: #ef4056 !important;
+}
+.container .signup-main form div .error {
+  color: #ba281c;
+  direction: rtl;
+  font-size: 0.7rem;
+}
+.container .signup-main form button {
+  border: none;
+  outline: none;
+  padding: 12px 18px;
+  border-radius: 8px;
+  color: white;
+  background-color: #408fef;
+  cursor: pointer;
+}
+.container .signup-main p.note {
+  font-size: 0.72rem;
+  line-height: 25px;
+  color: #000000;
+  font-family: Vaziri-Light;
+  font-weight: 500;
+  direction: rtl;
+  padding: 0 20px;
+  margin-top: 10px;
+}
+.container .signup-main p.note a {
+  text-decoration: none;
+  font-family: Vaziri-Light;
+  color: #3da4d1;
+}
+@media screen and (min-width: 1024px) {
+  .signup-main {
+    max-width: 400px;
+    min-height: 440.25px;
+    padding: 32px;
+    border: 1px solid #e0e0e2;
+    border-radius: 10px;
+ }
+  .signup-main header {
+    padding: 0 !important;
+ }
+  .signup-main header p {
+    font-size: 0.75rem !important;
+ }
+  .signup-main form {
+    padding: 0 !important;
+ }
+  .signup-main form input {
+    border: 1px solid #4dd0e1 !important;
+    background-color: white !important;
+ }
+  .signup-main form input.err {
+    border-color: #ef4056 !important;
+ }
+  .signup-main p.note {
+    padding: 0 !important;
+    margin-top: 30px !important;
+    font-size: 0.73rem !important;
+ }
+}
